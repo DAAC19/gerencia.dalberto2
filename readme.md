@@ -1,9 +1,5 @@
 # Sitio estático listo para despliegue gratuito
 
-Este proyecto es un ejemplo para desplegar **gratis** en:
-- **GitHub Pages** (repo público o privado con Pages)
-- **Netlify** (Netlify Drop o repo conectado)
-
 ## Estructura
 
 
