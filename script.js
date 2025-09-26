@@ -2,7 +2,7 @@
 const themeBtn = document.getElementById('themeBtn');
 const root = document.documentElement;
 const statusMsg = document.getElementById('statusMsg');
-const contactForm = document.getElementById('contactForm');
+const contactForm = document.getElementById('candidateForm');
 const yearSpan = document.getElementById('year');
 
 // Actualiza el año en el footer
@@ -24,3 +24,20 @@ contactForm?.addEventListener('submit', (e) => {
   statusMsg.className = 'text-green-700';
   contactForm.reset();
 });
+
+// Selector para respuestas FAQ
+document.addEventListener("DOMContentLoaded", () => {
+  const faqs = document.querySelectorAll(".toggle-faq");
+
+  faqs.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const content = btn.nextElementSibling;
+      const icon = btn.querySelector("i");
+
+      btn.classList.toggle("active");
+      content.classList.toggle("hidden");
+      icon.classList.toggle("rotate-180");
+    });
+  });
+});
+
