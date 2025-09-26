@@ -83,13 +83,16 @@
     </p>
     <form id="candidateForm" class="mt-4 grid gap-4">
       <input name="nombre" required placeholder="Nombre completo"
-        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2" />
-      
+        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2
+        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" />
+
       <input name="email" type="email" required placeholder="Tu email"
-        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2" />
+        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2
+        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" />
 
       <select name="semestre" required
-        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2">
+        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2
+        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
         <option value="" disabled selected class="dark:text-slate-400">Selecciona tu semestre</option>
         <option value="1">1° semestre</option>
         <option value="2">2° semestre</option>
@@ -104,7 +107,8 @@
       </select>
 
       <select name="postulacion" required
-        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2">
+        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2
+        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
         <option value="" disabled selected class="dark:text-slate-400">Selecciona el tipo de postulación</option>
         <option value="representante-semestre">Representante de Semestre</option>
         <option value="representante-estudiantil">Representante Estudiantil</option>
@@ -112,7 +116,8 @@
       </select>
 
       <textarea name="propuestas" rows="4" required placeholder="Dinos tus propuestas de candidato"
-        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2"></textarea>
+        class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2
+        focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"></textarea>
       
       <button class="bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg px-4 py-2 w-fit">
         Enviar postulación
