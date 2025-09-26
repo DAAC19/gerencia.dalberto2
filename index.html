@@ -100,6 +100,18 @@
         <option value="9">9° semestre</option>
         <option value="10">10° semestre</option>
       </select>
+       <div class="col-md-6">
+                    <label for="especialidad" class="form-label">
+                      <i class="bi bi-hospital text-muted me-1"></i>
+                      Tipo de Postulacion <span class="text-danger">*</span>
+                    </label>
+                    <select class="form-select" id="postulacion" name="postulacion" required>
+                      <option value="">Seleccione el tipo de Postulacion</option>
+                      <option value="medicina-general">Representante de Semestre</option>
+                      <option value="cardiologia">Representante Estudiantil</option>
+                      <option value="neurologia">Representante de Division</option>
+                    </select>
+                  </div>
       <textarea name="propuestas" rows="4" required placeholder="Dinos tus propuestas de candidato"
         class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2"></textarea>
       <button class="bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg px-4 py-2 w-fit">
