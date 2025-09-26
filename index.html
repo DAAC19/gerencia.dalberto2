@@ -34,6 +34,7 @@
     <div class="max-w-5xl mx-auto px-4 py-16">
       <h1 class="text-3xl md:text-5xl font-bold bg-gradient-to-r from-sky-700 to-blue-950 bg-clip-text text-transparent">Sistema de votación - SVES</h1>
       <p class="mt-2 text-slate-200 dark:text-slate-300">Tu mejor opción para votar en línea.</p>
+      <h2 class="mt-3 text-slate-200 dark:text-slate-300">Haz tu voto por tu candidato preferido!!!.</h2>
       <a href="#features"
         class="inline-block mt-6 bg-sky-600 text-white hover:bg-sky-700 dark:bg-slate-100 dark:text-indigo-900 font-medium px-5 py-2.5 rounded-xl shadow hover:shadow-md">
         Ver características
@@ -99,6 +100,18 @@
         <option value="9">9° semestre</option>
         <option value="10">10° semestre</option>
       </select>
+       <div class="col-md-6">
+                    <label for="especialidad" class="form-label">
+                      <i class="bi bi-hospital text-muted me-1"></i>
+                      Tipo de Postulacion <span class="text-danger">*</span>
+                    </label>
+                    <select class="form-select" id="postulacion" name="postulacion" required>
+                      <option value="">Seleccione el tipo de Postulacion</option>
+                      <option value="medicina-general">Representante de Semestre</option>
+                      <option value="cardiologia">Representante Estudiantil</option>
+                      <option value="neurologia">Representante de Division</option>
+                    </select>
+                  </div>
       <textarea name="propuestas" rows="4" required placeholder="Dinos tus propuestas de candidato"
         class="border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-400 rounded-lg px-3 py-2"></textarea>
       <button class="bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg px-4 py-2 w-fit">
